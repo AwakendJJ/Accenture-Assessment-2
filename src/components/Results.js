@@ -4,18 +4,101 @@ const ResultsDisplay = ({ results }) => {
   const getStrengths = (type) => {
     const strengths = {
       INTJ: [
-        "Strategic thinking and long-term planning",
-        "Complex problem solving",
-        "Independent analysis and innovation",
-        "Systems thinking and architecture"
+        "Strategic technical architecture planning",
+        "Complex system design",
+        "Independent solution development",
+        "Long-term technical vision"
       ],
       INTP: [
         "Deep technical analysis",
-        "Innovation and conceptual thinking",
-        "Complex problem solving",
-        "Logical system design"
+        "Innovative problem solving",
+        "System architecture design",
+        "Technical research and development"
       ],
-      // Add more MBTI types as needed
+      ENTJ: [
+        "Technical team leadership",
+        "Strategic solution planning",
+        "Client relationship management",
+        "Project execution oversight"
+      ],
+      ENTP: [
+        "Technical innovation leadership",
+        "Solution architecting",
+        "Client workshop facilitation",
+        "Strategic technical consulting"
+      ],
+      INFJ: [
+        "Technical project vision",
+        "Client requirement analysis",
+        "Solution design consulting",
+        "Long-term relationship building"
+      ],
+      INFP: [
+        "User experience design",
+        "Technical documentation",
+        "Client empathy and support",
+        "Solution customization"
+      ],
+      ENFJ: [
+        "Technical team collaboration",
+        "Client workshop leadership",
+        "Solution presentation",
+        "Stakeholder management"
+      ],
+      ENFP: [
+        "Innovation consulting",
+        "Client engagement",
+        "Technical solution ideation",
+        "Adaptable implementation approaches"
+      ],
+      ISTJ: [
+        "Detailed technical analysis",
+        "Systematic implementation",
+        "Process adherence",
+        "Quality assurance"
+      ],
+      ISFJ: [
+        "Technical support excellence",
+        "Client requirement fulfillment",
+        "Detailed documentation",
+        "Process optimization"
+      ],
+      ESTJ: [
+        "Project management",
+        "Technical team coordination",
+        "Implementation oversight",
+        "Process efficiency"
+      ],
+      ESFJ: [
+        "Client relationship management",
+        "Team coordination",
+        "Technical support leadership",
+        "Implementation guidance"
+      ],
+      ISTP: [
+        "Hands-on technical problem solving",
+        "System troubleshooting",
+        "Practical solution design",
+        "Technical efficiency optimization"
+      ],
+      ISFP: [
+        "User interface design",
+        "Technical creative solutions",
+        "Client experience focus",
+        "Adaptable implementation"
+      ],
+      ESTP: [
+        "Technical sales leadership",
+        "Practical solution demonstration",
+        "Crisis management",
+        "Immediate problem resolution"
+      ],
+      ESFP: [
+        "Client engagement",
+        "Technical presentation",
+        "Team collaboration",
+        "Adaptive problem solving"
+      ]
     };
     return strengths[type] || [
       "Analytical thinking",
